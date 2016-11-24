@@ -1166,7 +1166,7 @@ public abstract class StackValue {
         }
     }
 
-    static class Property extends StackValueWithSimpleReceiver {
+    public static class Property extends StackValueWithSimpleReceiver {
         private final CallableMethod getter;
         private final CallableMethod setter;
         private final Type backingFieldOwner;
